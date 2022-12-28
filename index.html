@@ -1,0 +1,14 @@
+<html>
+
+<button id="button" onclick="clicked()">Click Here To Go To Google</button>
+
+<script>
+
+var clicked = function(){
+    var a = window.open("https://google.com")
+
+    setTimeout(function(){a.location = "https://facebook.com"}, 5000)
+}
+</script>
+
+</html>
